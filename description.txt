@@ -1,0 +1,24 @@
+Here's a brief description of how the JavaScript functionality is implemented in the provided code:
+
+1. The updateClock() function is defined to update the clock's display. 
+    It retrieves the clock element from the HTML using document.getElementById('clock').
+
+2. Inside the updateClock() function, the current time is obtained using the Date() object. 
+    The getHours(), getMinutes(), and getSeconds() methods are used to retrieve the hours, minutes, and seconds from the current time.
+
+3. Leading zeros are added to the hours, minutes, and seconds if necessary using a ternary operator. 
+    This ensures that each segment of the time is displayed with two digits (e.g., 02 instead of 2).
+
+4. The formatted time string is created by concatenating the hours, minutes, and seconds together with colons separating them.
+
+5. The textContent property of the clock element is updated with the formatted time string, effectively displaying the time in the clock.
+
+6. The updateClock() function is called initially to initialize the clock's display with the current time.
+
+7. The setInterval() function is used to call the updateClock() function every second (1000 milliseconds). 
+    This ensures that the clock is updated continuously to reflect the current time.
+
+
+
+
+

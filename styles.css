@@ -1,0 +1,18 @@
+#clock {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #4c886a;
+    color: #ffffff;
+  }
+  
+  #clock::after {
+    content: "";
+    display: block;
+    width: 345px;
+    height: 6px;
+    background-color: #000000;
+    margin: 10px auto;
+  }
+  
